@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "Portfolio-ManginiCassuttiValentina/node_modules/bootstrap-5.0.1-dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "Portfolio-ManginiCassuttiValentina/node_modules/bootstrap-5.0.1-dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
