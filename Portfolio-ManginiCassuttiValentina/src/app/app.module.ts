@@ -9,6 +9,7 @@ import { ComponentsComponent } from './components/components.component';
 import { GitHubComponent } from './components/git-hub/git-hub.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { LoginComponent } from './login/login.component';
+import { InformacionComponent } from './components/informacion/informacion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login.component';
     ComponentsComponent,
     GitHubComponent,
     BannerComponent,
-    LoginComponent
+    LoginComponent,
+    InformacionComponent
   ],
   imports: [
     BrowserModule,

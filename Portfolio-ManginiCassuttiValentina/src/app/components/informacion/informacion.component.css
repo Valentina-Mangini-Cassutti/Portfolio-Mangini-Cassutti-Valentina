@@ -1,0 +1,27 @@
+ @media (min-width:576px)
+ {
+ #perfil{ 
+    position: absolute;
+    width:200px;
+    height:200px;
+    border-radius:200px;
+
+    width:200px;
+    height:200px;
+    border-radius:200px;
+    border:2px solid rgb(10, 10, 19);
+
+    margin-top: -350px;
+    margin-left: 650px;
+ }
+}
+#nombre {
+    margin-top: -140px;
+    margin-left: 650px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#descripcion{
+    margin-top: 350px;
+    margin-left: 650px;
+}
