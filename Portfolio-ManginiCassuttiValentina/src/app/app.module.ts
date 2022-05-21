@@ -12,6 +12,9 @@ import { LoginComponent } from './login/login.component';
 import { InformacionComponent } from './components/informacion/informacion.component';
 import { YPComponent } from './components/yp/yp.component';
 import { ExperenciaComponent } from './components/experencia/experencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { UTNLOGOComponent } from './components/utn-logo/utn-logo.component';
+import { LogoFcefynComponent } from './components/logo-fcefyn/logo-fcefyn.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ExperenciaComponent } from './components/experencia/experencia.componen
     LoginComponent,
     InformacionComponent,
     YPComponent,
-    ExperenciaComponent
+    ExperenciaComponent,
+    EducacionComponent,
+    UTNLOGOComponent,
+    LogoFcefynComponent
   ],
   imports: [
     BrowserModule,
