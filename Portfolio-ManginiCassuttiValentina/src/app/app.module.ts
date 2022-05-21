@@ -10,6 +10,8 @@ import { GitHubComponent } from './components/git-hub/git-hub.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { LoginComponent } from './login/login.component';
 import { InformacionComponent } from './components/informacion/informacion.component';
+import { YPComponent } from './components/yp/yp.component';
+import { ExperenciaComponent } from './components/experencia/experencia.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { InformacionComponent } from './components/informacion/informacion.compo
     GitHubComponent,
     BannerComponent,
     LoginComponent,
-    InformacionComponent
+    InformacionComponent,
+    YPComponent,
+    ExperenciaComponent
   ],
   imports: [
     BrowserModule,
