@@ -15,6 +15,7 @@ import { ExperenciaComponent } from './components/experencia/experencia.componen
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { UTNLOGOComponent } from './components/utn-logo/utn-logo.component';
 import { LogoFcefynComponent } from './components/logo-fcefyn/logo-fcefyn.component';
+import { IntegralCapacitandoComponent } from './components/integral-capacitando/integral-capacitando.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LogoFcefynComponent } from './components/logo-fcefyn/logo-fcefyn.compon
     ExperenciaComponent,
     EducacionComponent,
     UTNLOGOComponent,
-    LogoFcefynComponent
+    LogoFcefynComponent,
+    IntegralCapacitandoComponent
   ],
   imports: [
     BrowserModule,

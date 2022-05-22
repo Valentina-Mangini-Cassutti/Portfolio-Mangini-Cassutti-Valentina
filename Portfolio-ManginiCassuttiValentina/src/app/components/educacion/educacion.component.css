@@ -5,6 +5,37 @@ div{
     background-color:  rgb(10, 10, 19);
 
 }
-h3,p{
+h5,p{
     display: inline;
+}
+
+*{
+
+    box-sizing: borde-box;
+    color: rgb(255, 255, 255); 
+    white-space:nowrap;
+}
+.container-all{ 
+    width: 100%;
+    max-width: 1000px;
+    
+    
+}
+.container-all img{ 
+    width: 200px;
+    float: left;
+    margin-right:20px;
+}
+
+@media (min-width:576px)
+{
+    #fcefyn{
+ 
+        white-space:nowrap;
+       }
+    #fecha{
+        white-space:nowrap;
+    }
+    
+    
 }

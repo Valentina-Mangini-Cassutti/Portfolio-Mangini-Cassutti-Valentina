@@ -1,6 +1,10 @@
 .row{
     padding: 40px;
 }
+*{
+
+    color: rgb(255, 255, 255); 
+}
 div{
     background-color:  rgb(10, 10, 19);
 
@@ -15,48 +19,31 @@ h3,p{
 
 @media (min-width:576px)
 {
-#tituloexl{
- 
- color: rgb(255, 255, 255); 
-}
 #exl{
     margin-top: 15px;
-    color: rgb(255, 255, 255);
     white-space:nowrap;
 }
 #descripcion{
     margin-top: 15px;
-    color: rgb(255, 255, 255);
     white-space:nowrap;
 }
 #fecha{
-    color: rgb(255, 255, 255);
     white-space:nowrap;
 
 }
-
-
 }
 
 @media (max-width:575px)
 {
-    #tituloexl{
-        
-        color: rgb(255, 255, 255); 
-       }
        #exl{
          margin-top: 15px;
-           color: rgb(255, 255, 255);
         }
         #descripcion{
             margin-top: 15px;
-            color: rgb(255, 255, 255);
             white-space:nowrap;
         }
         #fecha{
-            color: rgb(255, 255, 255);
             white-space:nowrap;
         }
        
-        
 }
