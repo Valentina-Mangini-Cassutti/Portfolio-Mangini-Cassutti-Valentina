@@ -14,6 +14,8 @@ h5,p{
     box-sizing: borde-box;
     color: rgb(255, 255, 255); 
     white-space:nowrap;
+   
+
 }
 .container-all{ 
     width: 100%;
@@ -38,4 +40,8 @@ h5,p{
     }
     
     
+    @media (max-width:575px)
+{
+
+}
 }

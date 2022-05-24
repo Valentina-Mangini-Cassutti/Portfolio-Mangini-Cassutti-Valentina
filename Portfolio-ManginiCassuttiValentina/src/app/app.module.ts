@@ -17,6 +17,10 @@ import { UTNLOGOComponent } from './components/utn-logo/utn-logo.component';
 import { LogoFcefynComponent } from './components/logo-fcefyn/logo-fcefyn.component';
 import { IntegralCapacitandoComponent } from './components/integral-capacitando/integral-capacitando.component';
 
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,11 +36,14 @@ import { IntegralCapacitandoComponent } from './components/integral-capacitando/
     EducacionComponent,
     UTNLOGOComponent,
     LogoFcefynComponent,
-    IntegralCapacitandoComponent
+    IntegralCapacitandoComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({}),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
