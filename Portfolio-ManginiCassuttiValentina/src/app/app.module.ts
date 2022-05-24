@@ -20,6 +20,8 @@ import { IntegralCapacitandoComponent } from './components/integral-capacitando/
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { PieComponent } from './components/pie/pie.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UTNLOGOComponent,
     LogoFcefynComponent,
     IntegralCapacitandoComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    ProyectosComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,
