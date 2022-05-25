@@ -19,44 +19,10 @@ div js,html, css, SQL {
 
     box-sizing: borde-box;
     color: rgb(255, 255, 255); 
+    align-items: center;
     
 }
-@media (min-width:576px)
-{
-#perfil{ 
-   position: absolute;
-   width:10%;
-   height:10%px;
-   border-radius:200px;
-   left:3%;
 
-   width:200px;
-   height:200px;
-   border-radius:200px;
-   border:5px solid rgb(10, 10, 19);
-
-   margin-top: -150px;
-   margin-left: 40px;
-}
-}
-@media (max-width:575px)
-{
-#perfil{ 
-   position: absolute;
-   width:30%;
-   height:200%;
-   border-radius:200%;
-   left:33%;
-
-   width:200%;
-   height:200%;
-   border-radius:200%;
-   border:4px solid rgb(10, 10, 19);
-
-   margin-top: -150px;
-   margin-left: 40px;
-}
-}
 
 @media (min-width:576px)
 {

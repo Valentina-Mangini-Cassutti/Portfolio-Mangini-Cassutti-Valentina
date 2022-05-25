@@ -22,6 +22,7 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { PieComponent } from './components/pie/pie.component';
+import { BottonsComponent } from './components/bottons/bottons.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PieComponent } from './components/pie/pie.component';
     IntegralCapacitandoComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    PieComponent
+    PieComponent,
+    BottonsComponent
   ],
   imports: [
     BrowserModule,
